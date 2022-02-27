@@ -10,3 +10,4 @@ assets/js/jquery*
 *.sublime-project
 *.sublime-workspace
 token
+yarn-error.log
