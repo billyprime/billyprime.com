@@ -6,10 +6,10 @@ $web-fonts-protocol: null;
 $web-fonts-params: null;
 
 @import "includes/variables";
-@import "@fortawesome/fontawesome-pro/scss/fontawesome.scss";
-@import "@fortawesome/fontawesome-pro/scss/solid.scss";
-@import "@fortawesome/fontawesome-pro/scss/regular.scss";
-@import "@fortawesome/fontawesome-pro/scss/brands.scss";
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+// @import "@fortawesome/fontawesome-free/scss/regular.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
 @import "includes/bootstrap_customization";
 
 @import "includes/web-fonts-local";
