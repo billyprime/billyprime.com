@@ -1,4 +1,12 @@
-_site/
-.sass-cache/
-.jekyll-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
+vendor
+node_modules
+uploads
+assets/js/bootstrap.bundle.min.js
+assets/js/jquery*
+*.sublime-project
+*.sublime-workspace
+token

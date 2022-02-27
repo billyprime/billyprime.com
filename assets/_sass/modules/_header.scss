@@ -1,0 +1,60 @@
+body {
+  padding-top: 2.75rem;
+
+  &.page-home {
+    padding-top: 5rem;
+    @include media-breakpoint-down(md) {
+      padding-top: 3rem;
+    }
+
+    .main-link {
+      font-size: 2rem;
+      @include media-breakpoint-down(md) {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+.head {
+  @extend .fixed-top;
+  background-color: $body-bg;
+  width: 100%;
+}
+
+.navbar {
+  @extend .navbar-expand-md;
+
+  padding-left: 0;
+  padding-right: 0;
+
+
+  .main-link {
+    @extend .navbar-brand;
+
+    padding-top: 0;
+    padding-bottom: 0;
+
+    @include media-breakpoint-down(md) {
+      font-size: 1.1rem;
+    }
+  }
+
+  .nav-links {
+    @extend .navbar-nav;
+    flex-direction: initial;
+    margin-left: auto;
+    order: 2;
+
+    li {
+      @extend .nav-item;
+    }
+
+    a {
+      @extend .nav-link;
+      text-transform: lowercase;
+      padding: 0.125rem 0.25rem;
+      margin: 0 0.25rem;
+    }
+  }
+}

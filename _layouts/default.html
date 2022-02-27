@@ -1,0 +1,20 @@
+---
+layout: root
+---
+<!-- default.html -->
+<article class="post-single">
+
+  <header class="page-header">
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+
+  {% assign text = content | strip %}
+  {% if text == "" and page.photos %}
+    {%- include photos.html -%}
+  {% endif %}
+
+  <section>
+    {{ content }}
+  </section>
+
+</article>

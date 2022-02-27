@@ -1,0 +1,17 @@
+<ul class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="{{ '/' }}">Home</a>
+	</li>
+	{% for category in page.categories %}
+	  {% assign route="/blog/" | append: category %}
+
+	  {% if route != page.url %}
+			<li class="breadcrumb-item">
+				<a href="{{ route  }}">{{ category | replace: "-", " " }}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+	<li class="breadcrumb-item active" aria-current="page">
+		{{ page.title | replace: "-", " " }}
+	</li>
+</ul>

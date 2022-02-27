@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: $dark-grey;
+
+  border-left:   1px solid darken($dark-grey, 5%);
+  border-bottom: 1px solid darken($dark-grey, 5%);
+}
+
+::-webkit-scrollbar-thumb {
+	background: lighten($dark-grey, 25%) url(/images/dot.png) no-repeat center center;
+}

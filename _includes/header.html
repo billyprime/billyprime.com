@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg container">
+  <div class="container-fluid navbar-container">
+    <a class="navbar-brand" rel="author" href="/"><span class="navbar-brand-first">Billy</span> <span class="navbar-brand-second">Prime</span></a>
+
+    {%- assign page_paths = site.header_pages -%}
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon far fa-bars"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav nav-pages">
+        <li class="nav-item">
+          <a class="nav-link" href="/photos/">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog/">Drawings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about/">About</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav nav-social">
+        <li class="twitter">
+          <a href="https://twitter.com/billyprime" title="Twitter">{% fab "fa-twitter icon" %}<span>Twitter</span></a>
+        </li>
+
+        <li class="email">
+          <a href="mailto:billy.prime@billyprime.com" title="Email">{% far "fa-envelope icon" %}<span>Email</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

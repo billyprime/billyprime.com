@@ -1,0 +1,145 @@
+---
+---
+
+/* Global Declarations */
+$web-fonts-protocol: null;
+$web-fonts-params: null;
+
+@import "includes/variables";
+@import "@fortawesome/fontawesome-pro/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-pro/scss/solid.scss";
+@import "@fortawesome/fontawesome-pro/scss/regular.scss";
+@import "@fortawesome/fontawesome-pro/scss/brands.scss";
+@import "includes/bootstrap_customization";
+
+@import "includes/web-fonts-local";
+@include web-fonts(
+  ("Quicksand", "quicksand", (400, (400, italic))),
+  ("Poppins", "poppins", (600, 900))
+);
+
+@import "partials/navbar";
+@import "partials/about";
+@import "partials/photos";
+@import "partials/gallery";
+@import "partials/model";
+
+body {
+  background: $black;
+  color: $white;
+  font-family: $main-font-stack;
+  @extend %font-normal;
+  line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $accent-font-stack;
+  color: $dark;
+  @extend %font-normal;
+  a {
+    color: inherit;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+.subtitle {
+  border-bottom: 3px solid $dark;
+  margin-bottom: 2rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.long {
+  display: none;
+}
+.short {
+  display: block;
+}
+
+@include media-breakpoint-up(md) {
+  .long {
+    display: block;
+  }
+  .short {
+    display: none;
+  }
+}
+
+input {
+  font-family: $main-font;
+  @extend %font-normal;
+  font-size: .85em;
+}
+
+a {
+  color: $link-color;
+  border-bottom: 2px solid $link-color;
+
+  &:hover {
+    border-bottom: 2px solid transparent;
+  }
+}
+
+img {
+  max-width: 100%;
+  max-height: 140vh;
+  object-fit: contain;
+}
+
+strong {
+  @extend %bold;
+}
+
+hr {
+  margin-top: 0;
+  border-top: 3px solid $gray-500;
+  width: 80%;
+}
+
+blockquote {
+}
+
+.print-only {
+  display: none;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.content {
+  @extend .container;
+  background: $light;
+  color: $black;
+  margin-bottom: 4rem;
+  min-height: 70vh;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  @include media-breakpoint-up(md) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  overflow:hidden;
+
+  & > header {
+    margin-bottom: 1rem;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.icon {
+  @extend .fa;
+  @extend .far;
+}

@@ -1,0 +1,96 @@
+// Gallery Page
+.parent-photos main {
+  .page-title {
+  }
+}
+
+// .slides {
+//   display: flex;
+//   flex-direction: row;
+//   width: calc(100vw - 40px);
+//   overflow-x: scroll;
+//   padding-bottom: 0.5rem;
+// }
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  @include media-breakpoint-down(md) {
+    margin-top: 1.1rem;
+  }
+
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  img {
+    @extend %photo;
+  }
+
+  blockquote {
+    font-style: oblique;
+    font-family: Times, 'Times New Roman', serif;
+    &::before {
+      content: "“";
+      font-size: 1.5rem;
+      line-height: 0.8em;
+      position: relative;
+      top: 0.2rem;
+    }
+    &::after {
+      content: "”";
+      font-size: 1.5rem;
+      line-height: 0.8em;
+      top: 0.2rem;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.1em;
+    }
+  }
+}
+
+.gallery-info {
+  @include media-breakpoint-up(md) {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+.gallery-credits,
+.related-pages {
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.credits {
+  display: inline-block;
+  margin-bottom: 1rem;
+
+  dt {
+    font-size: 0.9em;
+    &::after {
+      content: ":";
+    }
+  }
+  dd {
+    font-weight: bold;
+    margin-left: 1.5rem;
+  }
+
+  dd.model-link + dt.model-link {
+    display: none;
+  }
+}
+
+.related-pages {
+  .title {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+  .thumbnail {
+    margin-bottom: 0.5rem;
+  }
+}

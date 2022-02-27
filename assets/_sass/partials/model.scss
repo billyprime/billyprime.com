@@ -1,0 +1,44 @@
+.taxonomy-model {
+	.nav-title {
+		display: block;
+	}
+
+	h1 {
+		margin-bottom: 2rem;
+	}
+
+	h2 {
+		@extend %standard-underline;
+		width: 100%;
+	}
+
+	.title {
+		display: inline-block;
+		margin-right: 0.5rem;
+	}
+
+	.model-website {
+		.icon {
+			margin-left: 0.2rem;
+			margin-bottom: 0.1rem;
+			font-size: 0.8em;
+			@extend .fa, .far, .fa-external-link;
+		}
+	}
+
+	.model-items {
+		display: block;
+		float: left;
+		clear: both;
+		width: 100%;
+		margin-bottom: 2rem;
+
+		a {
+			@extend %inactive-link;
+			.title {
+				@extend %active-link;
+
+			}
+		}
+	}
+}

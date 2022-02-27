@@ -1,0 +1,26 @@
+---
+layout: root
+---
+<!-- model.html -->
+<article class="post-single">
+
+  <header class="page-header">
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+  {% if page.website %}
+    <section class="about-model">
+      <a href="{{ page.website }}">Website <span class="fas fa-external-link-alt"></span></a>
+    </section>
+  {% endif %}
+
+  {% if page.content %}
+    <section class="about-model">
+      {{ page.content }}
+    </section>
+  {% endif %}
+
+  <section class="photo-models">
+    {%- assign model = page.slug -%}
+    {%- include model-summary.html -%}
+  </section>
+</article>

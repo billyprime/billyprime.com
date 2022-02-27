@@ -1,0 +1,32 @@
+---
+layout: root
+---
+<!-- post.html -->
+<article class="post-single">
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="text-muted">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%b %-d, %Y" }}
+
+      </time>
+      {%- if page.author -%}
+        • {{ page.author }}
+      {%- endif -%}
+    </p>
+    <nav aria-label="breadcrumb" class="breadcrumb-container">
+      {% include breadcrumbs.html path=page.path title=page.title %}
+    </nav>
+  </header>
+
+  <section class="post-content">
+    {{ content }}
+  </section>
+
+  <section class="photo-models">
+    {%- for model in page.models -%}
+      {%- include model-summary.html -%}
+    {%- endfor -%}
+  </section>
+
+</article>

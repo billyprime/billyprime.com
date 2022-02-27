@@ -1,0 +1,38 @@
+<!-- photos.html -->
+
+<section class="photo-group thumbnails">
+{%- for photo in page.photos -%}
+  {%- if photo.divider -%}
+    <div class="divider">
+      <span class="divider-inside">{{ photo.divider }}</span>
+    </div>
+  {%- else -%}
+    <a href="{{site.static}}/photos/{{page.slug}}/{{ photo.src }}">
+      <img src="{{site.static}}/photos/{{page.slug}}/{{ photo.src }}"/>
+    </a>
+  {%- endif -%}
+{%- endfor -%}
+</section>
+
+
+{%- if page.credits -%}
+<section class="photo-credit">
+  <dl>
+  {%- for model in page.models -%}
+    {%- assign details = site.models | where: "slug", model | first -%}
+    <dt>Model</dt>
+    <dd><a href="{{ details.url }}">{{ details.title }}</a></dd>
+  {%- endfor -%}
+  {%- for credit in page.credits -%}
+    <dt>{{ credit.name  }}</dt>
+    <dd>{{ credit.value }}</dd>
+  {%- endfor -%}
+  </dl>
+</section>
+{%- endif -%}
+
+<section class="photo-models">
+  {%- for model in page.models -%}
+    {%- include model-summary.html -%}
+  {%- endfor -%}
+</section>

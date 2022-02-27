@@ -1,0 +1,26 @@
+{%- assign details = site.models | where: "slug", model | first -%}
+
+{%- assign related = site.photos | concat: site.posts |
+  where_exp: "item", "item.models contains model" |
+  where_exp: "item", "item.url != page.url"
+-%}
+
+{% if related.size > 0 %}
+
+<aside class="related-pages">
+  <header>
+    More content featuring <a href="{{ details.url }}">{{ details.title }}</a>:
+  </header>
+
+  <section class="model-features thumbnails">
+    {{  }}
+    {%- for relation in related -%}
+      <article class="thumbnail">
+        <a href="{{ relation.url }}"><h3 class="title">{{ relation.title }}</h3>
+          <img src="{{site.static}}{{relation.url}}/{{relation.feature}}"/></a>
+      </article>
+    {%- endfor -%}
+  </section>
+
+</aside>
+{% endif %}

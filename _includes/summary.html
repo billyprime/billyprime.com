@@ -1,0 +1,22 @@
+<!-- summary.html -->
+<article class="gallery">
+  <a href="{{ post.url }}">
+    <header class="gallery-header">
+      <h1 class="title">{{ post.title }}</h1>
+      {% if post.layout == 'post' %}
+        <date class="fancy-date">
+          {{ post.date | date: '%B %-d, %Y' }}
+        </date>
+      {% endif %}
+    </header>
+    {% if post.feature %}
+      <img class="gallery-image" src="{{site.static}}{{post.url}}/{{post.feature}}" />
+    {% endif %}
+  </a>
+  {% if !post.featured and post.summary %}
+    <div class="summary">
+      {{ post.summary }}
+      <a href="{{ post.url }}">Read more...</a>
+    </div>
+  {% endif %}
+</article>

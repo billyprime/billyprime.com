@@ -1,0 +1,154 @@
+.title {
+  display: inline-block;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.gallery-list, .blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .gallery {
+    width: 100%;
+    @include media-breakpoint-up(md) {
+      width: 30%;
+    }
+
+    overflow: hidden;
+    margin-bottom: 2em;
+
+    a {
+      border-bottom: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    .title {
+      padding-bottom: 0;
+      margin-bottom: 0.15em;
+
+      color: $link-color;
+      border-bottom: 2px solid transparent;
+    }
+
+    &:hover {
+      .gallery-title {
+        border-bottom: 2px solid $link-color;
+      }
+    }
+
+    &-image {
+      max-width: 100%;
+      max-height: 40vh;
+      object-fit: contain;
+    }
+  }
+
+  &.features {
+    justify-content: center;
+
+    .gallery {
+      @include media-breakpoint-up(md) {
+        width: 40%;
+      }
+
+      a {
+        justify-content: normal;;
+      }
+
+      &-header {
+        justify-content: center;
+      }
+
+      &-image {
+        max-width: 100%;
+        max-height: 60vh;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+
+.gallery-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.blog-list {
+
+}
+
+.fancy-date {
+  font-size: 1.2em;
+  line-height: 2;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+
+  a, a:hover {
+    border-bottom: none;
+  }
+
+  & > * {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  @include media-breakpoint-up(md) {
+
+    & > * {
+        width: 30%;
+      }
+  }
+
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  min-height: 40vh;
+  background-color: $dark;
+  color: $white;
+  padding: 2rem;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  blockquote {
+    font-style: italic;
+  }
+}
+
+
+@include media-breakpoint-up(lg) {
+  .divider {
+
+  }
+}
+
+.divider-inside {
+  display: block;
+  align-self: center;
+  width: 90vw;
+  // text-align: justify;
+  @include media-breakpoint-up(lg) {
+    width: 30vw;
+  }
+}

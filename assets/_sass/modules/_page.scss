@@ -1,0 +1,53 @@
+.head,
+main,
+.foot {
+  clear: both;
+
+  .page-home &,
+  .page-about &,
+  .type-taxonomy &,
+  .type-taxonomyTerm & {
+    @extend .container;
+    padding: 0;
+  }
+
+  .parent-photos & {
+    @extend .container-fluid
+  }
+}
+
+%active-link {
+  color: $link-color;
+  @extend %standard-underline;
+  transition: all 0.3s ease-in-out;
+  &:hover, &:active, a:hover &, a:active & {
+    color: darken($link-color, 20%);
+    border-bottom: 1px solid darken($link-color, 20%);;
+  }
+}
+
+%inactive-link {
+  border-bottom: none;
+  &:hover, &:active {
+    border-bottom: none;
+  }
+}
+
+%standard-underline {
+  border-bottom: 1px solid rgba($link-color, 1);
+}
+
+a {
+  line-height: 0.85;
+  @extend %active-link;
+
+  &.main-link, &.title, .nav-links &, & h1, & h2, & h3, & h4, & h5, & h6 {
+    @extend %inactive-link;
+  }
+}
+
+%photo {
+  max-height: calc(100vh - 7rem);
+  max-width: 100vw;
+  object-fit: contain;
+}

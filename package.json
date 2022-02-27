@@ -1,0 +1,19 @@
+{
+  "name": "bp-theme",
+  "version": "3.0.0",
+  "description": "billyprime theme for jekyll",
+  "main": "index.js",
+  "scripts": {
+    "serve": "rm -Rf _site && JEKYLL_ENV=production jekyll serve --port 8000 --host 0.0.0.0 --incremental",
+    "staging": "cap staging deploy",
+    "deploy": "cap production deploy",
+    "careless": "cap staging deploy && cap production deploy"
+  },
+  "author": "billyprime",
+  "license": "None",
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^6.0.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}
