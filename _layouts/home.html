@@ -11,7 +11,7 @@ layout: root
   {%- if site.posts.size > 0 -%}
     <h2 class="subtitle">Recent Posts</h2>
     <section class="gallery-list">
-      {%- for post in site.posts | limit: 3 -%}
+      {%- for post in site.posts limit: 3 -%}
         {%- include summary.html -%}
       {%- endfor -%}
     </section>
