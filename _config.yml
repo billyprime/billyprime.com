@@ -71,7 +71,7 @@ exclude:
   - config
   - log
 
-permalink: /blog/:categories/:title
+permalink: /blog/:categories/:title/
 
 collections:
   category:
