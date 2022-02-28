@@ -61,7 +61,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - package.json
-  - node_modules
+#  - node_modules
   - update_boostrap.sh
   - yarn.lock
   - yarn-error.log

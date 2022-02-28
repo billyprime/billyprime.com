@@ -3,7 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-node_modules
 uploads
 assets/js/bootstrap.bundle.min.js
 assets/js/jquery*
