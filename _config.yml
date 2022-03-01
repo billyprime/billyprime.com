@@ -22,7 +22,7 @@ title: Billy Prime
 # email: billy.prime@billyprime.com
 description: >- # this means to ignore newlines until "baseurl:"
   Photographer based in Washington, DC, USA.
-baseurl: "https://billyprime.github.io/billyprime.com" # the subpath of your site, e.g. /blog
+baseurl: "/billyprime.com" # the subpath of your site, e.g. /blog
 url: "https://billyprime.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 production_url : http://billyprime.github.io
 
