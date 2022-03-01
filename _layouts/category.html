@@ -28,11 +28,10 @@ layout: root
     <h2>Categories</h2>
     <ul class="category-list">
       {% for cat in site.categories %}
-        {%- assign name = cat | first -%}
-        {%- assign category = site.pages | find: "category", name -%}
+        {%- assign name = cat[0] -%}
         <li class="cat-{{ name }}">
           <!--span class="icon cat-{{ name }}"></span-->
-          <a href="{{ category.url }}">{{ category.title }}</a>
+          <a href="/blog/{{name | slugify}}">{{ name | capitalize }}</a>
         </li>
       {% endfor %}
     </ul>
