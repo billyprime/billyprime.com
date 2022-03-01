@@ -1,42 +1,51 @@
 ---
 layout: root
 ---
+{%- if page.category -%}
+  {%- assign posts = site.categories[page.category] -%}
+{%- else -%}
+  {%- assign posts = site.posts -%}
+{% endif -%}
+
 <!-- category.html -->
 <article>
   <header>
-    <h1>{{ page.title | replace: "-", " " }}</h1>
-
-    <nav aria-label="breadcrumb">
-      {% include breadcrumbs.html path=page.path title=page.title %}
-    </nav>
+    {% if page.title == "Blog" %}
+      <h1>Blog</h1>
+    {% else %}
+      <h1>Blog – {{ page.title | replace: "-", " " }}</h1>
+      <nav aria-label="breadcrumb" class="breadcrumb-container">
+        {% include breadcrumbs.html path=page.path title=page.title %}
+      </nav>
+    {% endif %}
   </header>
 
   <section>
     {{ content }}
   </section>
 
-  {% if page.children %}
+  {% if page.title == "Blog" %}
     <h2>Categories</h2>
-    <ul>
-      {% for child in page.children %}
-        <li>
-          <a href="{{page.url}}{{ child | slugify }}/">{{ child | replace: "-", " " }}</a>
+    <ul class="category-list">
+      {% for cat in site.categories %}
+        {%- assign name = cat | first -%}
+        {%- assign category = site.pages | find: "category", name -%}
+        <li class="cat-{{ name }}">
+          <!--span class="icon cat-{{ name }}"></span-->
+          <a href="{{ category.url }}">{{ category.title }}</a>
         </li>
       {% endfor %}
     </ul>
   {% endif %}
-  {% if site.categories[page.slug].size > 0 %}
-    <h2>Posts</h2>
-    <ul class="post-list">
-      {% for post in site.categories[page.slug] %}
-        <li>
-          <a href="{{ post.url }}">
-          <span class="post-title">{{ post.title }}</span> –
-          <span class="post-title">{{ post.date | date: "%b %-d, %Y" }}</span>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+
+  {% if page.title == "Blog" %}
+    <h2>All Posts</h2>
   {% endif %}
+
+  <section class="blog-list">
+    {% for post in posts %}
+      {%- include summary.html -%}
+    {% endfor %}
+  </section>
 
 </article>

@@ -1,10 +1,5 @@
 ---
 title: Blog
 permalink: /blog/
+layout: category
 ---
-
-<section class="blog-list">
-  {% for post in site.posts %}
-    {%- include summary.html -%}
-  {% endfor %}
-</section>
