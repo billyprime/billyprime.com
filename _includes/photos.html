@@ -21,7 +21,7 @@
   {%- for model in page.models -%}
     {%- assign details = site.models | where: "slug", model | first -%}
     <dt>Model</dt>
-    <dd><a href="{{ details.url }}">{{ details.title }}</a></dd>
+    <dd><a href="{{ details.url | relative_url }}">{{ details.title }}</a></dd>
   {%- endfor -%}
   {%- for credit in page.credits -%}
     <dt>{{ credit.name  }}</dt>

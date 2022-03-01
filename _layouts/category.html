@@ -31,7 +31,7 @@ layout: root
         {%- assign name = cat[0] -%}
         <li class="cat-{{ name }}">
           <!--span class="icon cat-{{ name }}"></span-->
-          <a href="/blog/{{name | slugify}}">{{ name | capitalize }}</a>
+          <a href="{{ name | slugify | append: '/' | prepend: '/blog/' | relative_url }}">{{ name | capitalize }}</a>
         </li>
       {% endfor %}
     </ul>
