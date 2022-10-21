@@ -1,6 +1,7 @@
 ---
 permalink: /photos/maille/
 title: Maille
+category: photo
 models:
   - jacs-fishburne
 feature: Jacs-0129.jpg

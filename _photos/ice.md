@@ -1,6 +1,7 @@
 ---
 permalink: /photos/ice/
 title: Ice
+category: photo
 models:
   - muse
 feature: IMG_9892.jpg

@@ -1,6 +1,7 @@
 ---
 permalink: /photos/clutter/
 title: Clutter
+category: photo
 models:
   - kelly
 feature: IMG_7595.jpg

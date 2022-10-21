@@ -1,6 +1,6 @@
 <!-- summary.html -->
 <article class="gallery">
-  <a href="{{ post.url | relative_url }}">
+  <a href="{{ post.url }}">
     <header class="gallery-header">
       <h1 class="title">{{ post.title }}</h1>
       {% if post.layout == 'post' %}
@@ -9,14 +9,20 @@
         </date>
       {% endif %}
     </header>
-    {% if post.feature %}
-      <img class="gallery-image" src="{{site.static}}{{post.url}}/{{post.feature}}" />
+    {% if post.feature -%}
+      {%- assign prefix = post.feature | slice: 0, 4 %}
+      {%- if prefix == 'http' %}
+        {% assign feature_img = post.feature %}
+      {%- else %}
+        {% assign feature_img = site.static | append: post.url | append: '/' | append: post.feature %}
+      {%- endif %}
+      <img class="gallery-image" src="{{ feature_img }}" />
     {% endif %}
   </a>
   {% if !post.featured and post.summary %}
     <div class="summary">
       {{ post.summary }}
-      <a href="{{ post.url | relative_url }}">Read more...</a>
+      <a href="{{ post.url }}">Read more...</a>
     </div>
   {% endif %}
 </article>

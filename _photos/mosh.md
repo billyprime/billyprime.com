@@ -1,10 +1,11 @@
 ---
 permalink: /photos/mosh/
 title: Mosh
+category: photo
 models:
   - mosh
 feature: IMG_9570.jpg
-weight: 12
+weight: 6
 photos:
   - src: IMG_8899.jpg
   - src: IMG_9021.jpg

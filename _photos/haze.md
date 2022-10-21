@@ -1,6 +1,7 @@
 ---
 permalink: /photos/haze/
 title: Haze
+category: photo
 models:
   - jesse-danger
 feature: ""

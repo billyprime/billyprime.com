@@ -3,13 +3,18 @@
  */
 
 .navbar {
+  @extend .container;
+  @extend %standard-padding;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  line-height: 1;
+
   font-family: $accent-font-stack;
-  @extend %bold;
 
   background: $dark;
   flex-wrap: wrap;
 
-  @include media-breakpoint-down(sm) {
+  @media (max-width: $breakpoint-md) {
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -23,6 +28,7 @@
   a {
     color: $white;
     border-bottom: none;
+    text-decoration: none;
   }
 
   .navbar-toggle {
@@ -34,14 +40,40 @@
 }
 
 .navbar .navbar-container {
+  display: flex;
   align-items: stretch;
   position: relative;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: 0.75rem;
+    flex-direction: column;
+  }
+}
+
+.nav-item {
+  @media (min-width: $breakpoint-md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: $breakpoint-md) {
+    margin-top: 0.125rem;
+    margin-bottom: 0.125rem;
+  }
 }
 
 /* Heading */
 .navbar-brand {
   position: absolute;
-  background: $dark;
+  top: -0.25rem;
   left: calc(50% - 5em);
   display: flex;
   flex-direction: column;
@@ -50,7 +82,16 @@
   font-weight: 900;
   font-size: 1rem;
   line-height: 1;
-  padding: 0 7px 7px;
+  padding: 7px;
+  background: $dark;
+  overflow: hidden;
+
+  .page-home & {
+    @media (min-width: $breakpoint-md) {
+      font-size: 3rem;
+    }
+  }
+
   // -webkit-text-stroke: 3px $dark;
   // -webkit-text-fill-color: $main-background;
 
@@ -59,9 +100,10 @@
   //   -webkit-text-stroke: 2px $dark;
   //   -webkit-text-fill-color: $main-background;
   // }
-
+  text-decoration: none;
   &:hover {
     text-decoration: none;
+    border-bottom: 0px solid transparent;
   }
 
   &-first {
@@ -76,17 +118,16 @@
   }
 }
 
-  .page-home {
-    .navbar-container {
-      height: 3em;
-    }
-    .navbar-brand {
-      font-size: 1.5rem;
-    }
+.page-home {
+  .navbar-container {
+    height: 3em;
   }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
 
-
-@include media-breakpoint-up(lg) {
+@media (min-width: $breakpoint-md) {
   .page-home {
     .content {
       padding-top: 5rem;
@@ -99,7 +140,7 @@
     }
   }
 }
-@include media-breakpoint-down(lg) {
+@media (max-width: $breakpoint-md) {
   .page-home {
     .content {
       padding-top: 2.5rem;
@@ -108,8 +149,11 @@
 }
 
 .nav-link {
-  padding: 0!important;
-  margin: 0 0.5rem;
+  padding: 0.125rem;
+  margin-right: 0.25rem;
+  &:first-child {
+    margin-left: -0.125rem;
+  }
   @extend %header-decoration;
 }
 
@@ -126,42 +170,28 @@
 }
 
 .nav-social {
-  margin-left: auto !important;
+  a {
+    margin-left: 1rem;
+    transition: all 0.25s ease-in-out;
 
-  .icon {
-    margin-right: 0.5rem;
+    &:hover {
+      opacity: 0.8;
+    }
   }
+  img {
+    height: 24px;
+    filter: invert(100%);
+  }
+
+  // margin-left: auto !important;
+
+  // .icon {
+  //   margin-right: 0.5rem;
+  // }
 }
 
 .navbar-expand-lg .navbar-collapse {
   flex-direction: row;
   align-items: center;
   align-content: space-between;
-}
-
-.collapse:not(.collapsing):not(.show) {
-  .nav-social {
-    a {
-      font-size: 24px;
-      width: 70px;
-      display: inline-block;
-      position: relative;
-      line-height: 1;
-      overflow: hidden;
-      text-align: center;
-
-      span:not(.icon) {
-        width: 100%;
-        font-size: 14px;
-        @include text-outline($dark);
-        transition: top 0.25s ease-in;
-        position: absolute;
-        left: 0;
-        top: 45px;
-      }
-      &:hover span:not(.icon) {
-        top: 5px;
-      }
-    }
-  }
 }

@@ -1,6 +1,7 @@
 ---
 permalink: /photos/quiet/
 title: Quiet
+category: photo
 models:
   - ada-snow
 feature: ""

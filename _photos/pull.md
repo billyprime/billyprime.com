@@ -1,6 +1,7 @@
 ---
 permalink: /photos/pull/
 title: Pull
+category: photo
 models:
   - kelly
 feature: IMG_1953.jpg

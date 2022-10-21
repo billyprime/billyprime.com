@@ -1,6 +1,7 @@
 ---
 permalink: /photos/maple/
 title: Maple
+category: photo
 models:
   - remy-ciuba
 feature: IMG_1539.jpg

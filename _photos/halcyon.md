@@ -1,6 +1,7 @@
 ---
 permalink: /photos/halcyon/
 title: Halcyon
+category: photo
 models:
   - riley-stclare
 feature: IMG_8046.jpg

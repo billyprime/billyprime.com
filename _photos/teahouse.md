@@ -1,7 +1,10 @@
 ---
 permalink: /photos/teahouse/
 title: Teahouse
-models: []
+category: photo
+models:
+  - shakti
+  - kelly
 feature: ""
 weight: 0
 photos:

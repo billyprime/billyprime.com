@@ -1,6 +1,7 @@
 ---
 permalink: /photos/cerulean/
 title: Cerulean
+category: photo
 models:
   - ryann-s
 feature: Ryann-0044-2.jpg

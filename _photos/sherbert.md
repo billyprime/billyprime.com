@@ -1,6 +1,7 @@
 ---
 permalink: /photos/sherbert/
 title: Sherbert
+category: photo
 models:
   - river
 feature: IMG_8951.jpg

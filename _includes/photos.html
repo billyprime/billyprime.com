@@ -7,7 +7,10 @@
       <span class="divider-inside">{{ photo.divider }}</span>
     </div>
   {%- else -%}
-    <a href="{{site.static}}/photos/{{page.slug}}/{{ photo.src }}">
+    {% assign trail = photo.src | slice: -2,2 %}
+    {% assign cls = '' %}
+    {% if trail == '?w' %}{% assign cls = 'landscape'%}{% endif %}
+    <a href="{{site.static}}/photos/{{page.slug}}/{{ photo.src }}" class="contained-photo {{ cls }}">
       <img src="{{site.static}}/photos/{{page.slug}}/{{ photo.src }}"/>
     </a>
   {%- endif -%}
@@ -21,7 +24,7 @@
   {%- for model in page.models -%}
     {%- assign details = site.models | where: "slug", model | first -%}
     <dt>Model</dt>
-    <dd><a href="{{ details.url | relative_url }}">{{ details.title }}</a></dd>
+    <dd><a href="{{ details.url }}">{{ details.title }}</a></dd>
   {%- endfor -%}
   {%- for credit in page.credits -%}
     <dt>{{ credit.name  }}</dt>

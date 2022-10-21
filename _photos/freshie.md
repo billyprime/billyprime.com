@@ -1,6 +1,7 @@
 ---
 permalink: /photos/freshie/
 title: Freshie
+category: photo
 models:
   - freshie-juice
 feature: Freshie-0023.jpg

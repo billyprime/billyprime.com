@@ -1,6 +1,7 @@
 ---
 permalink: /photos/moto-2/
 title: Moto 2
+category: photo
 models:
   - jenn-ryan
 feature: IMG_7820.jpg

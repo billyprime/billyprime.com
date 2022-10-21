@@ -1,6 +1,7 @@
 ---
 permalink: /photos/spangled/
 title: Spangled
+category: photo
 models:
   - tricia
 feature: ""

@@ -1,6 +1,7 @@
 ---
 permalink: /photos/sequence/
 title: Sequence
+category: photo
 models:
   - meg
 feature: 20160102-Meg-0078.jpg

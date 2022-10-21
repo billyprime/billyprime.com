@@ -12,8 +12,5 @@
   "author": "billyprime",
   "license": "None",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.0.0",
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1"
   }
 }

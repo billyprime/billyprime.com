@@ -1,10 +1,11 @@
 ---
 permalink: /photos/gild/
 title: Gild
+category: photo
 models:
   - shakti
-feature: IMG_8418.jpg
-weight: 4
+feature: IMG_8418.jpg?w
+weight: 6
 photos:
   - src: IMG_8295.jpg
   - src: IMG_8304.jpg

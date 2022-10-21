@@ -1,6 +1,7 @@
 ---
 permalink: /photos/bubblegum/
 title: Bubblegum
+category: photo
 models:
   - echo-nittolitto
 feature: IMG_97931.jpg

@@ -1,6 +1,7 @@
 ---
 permalink: /photos/union-market/
 title: Union Market
+category: photo
 models:
   - melanie-blankenship
   - ryann-s

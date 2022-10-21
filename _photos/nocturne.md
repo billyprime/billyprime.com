@@ -1,6 +1,7 @@
 ---
 permalink: /photos/nocturne/
 title: Nocturne
+category: photo
 models:
   - cat-hedlund
 feature: cat-0086.jpg

@@ -1,13 +1,13 @@
 <ul class="breadcrumb">
 	<li class="breadcrumb-item">
-		<a href="{{ '/blog/' | relative_url  }}">Blog</a>
+		<a href="/blog/">Blog</a>
 	</li>
 	{% for category in page.categories %}
 	  {% assign route="/blog/" | append: category %}
 
 	  {% if route != page.url %}
 			<li class="breadcrumb-item">
-				<a href="{{ route | relative_url }}">{{ category | replace: "-", " " }}</a>
+				<a href="{{ route }}">{{ category | replace: "-", " " }}</a>
 			</li>
 		{% endif %}
 	{% endfor %}

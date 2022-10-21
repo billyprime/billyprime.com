@@ -1,6 +1,7 @@
 ---
 permalink: /photos/moto/
 title: Moto
+category: photo
 models:
   - jenn-ryan
 feature: ""

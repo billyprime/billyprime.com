@@ -3,13 +3,13 @@ body {
 
   &.page-home {
     padding-top: 5rem;
-    @include media-breakpoint-down(md) {
+    @media (max-width: $breakpoint-md) {
       padding-top: 3rem;
     }
 
     .main-link {
       font-size: 2rem;
-      @include media-breakpoint-down(md) {
+      @media (max-width: $breakpoint-md) {
         font-size: 1.1rem;
       }
     }
@@ -35,7 +35,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
 
-    @include media-breakpoint-down(md) {
+    @media (max-width: $breakpoint-md) {
       font-size: 1.1rem;
     }
   }

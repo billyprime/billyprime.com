@@ -1,6 +1,7 @@
 ---
 permalink: /photos/scuro/
 title: Scuro
+category: photo
 models:
   - max-jade
 feature: IMG_4602.jpg

@@ -1,6 +1,7 @@
 ---
 permalink: /photos/captivate/
 title: Captivate
+category: photo
 models:
   - constantia
 feature: IMG_5993.jpg

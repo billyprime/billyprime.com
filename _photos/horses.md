@@ -1,6 +1,7 @@
 ---
 permalink: /photos/horses/
 title: Horses
+category: photo
 models:
   - jacs-fishburne
 feature: Jacs-0017-1.jpg

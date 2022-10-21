@@ -1,6 +1,7 @@
 ---
 permalink: /photos/refract/
 title: Refract
+category: photo
 models:
   - rachel-aw
 feature: IMG_9628.jpg

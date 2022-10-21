@@ -1,6 +1,7 @@
 ---
 permalink: /photos/whiteout/
 title: Whiteout
+category: photo
 models:
   - roarie-yum
 feature: feature.jpg

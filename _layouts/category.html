@@ -13,7 +13,7 @@ layout: root
     {% if page.title == "Blog" %}
       <h1>Blog</h1>
     {% else %}
-      <h1>Blog – {{ page.title | replace: "-", " " }}</h1>
+      <h1>{{ page.title | replace: "-", " " }}</h1>
       <nav aria-label="breadcrumb" class="breadcrumb-container">
         {% include breadcrumbs.html path=page.path title=page.title %}
       </nav>
@@ -30,8 +30,7 @@ layout: root
       {% for cat in site.categories %}
         {%- assign name = cat[0] -%}
         <li class="cat-{{ name }}">
-          <!--span class="icon cat-{{ name }}"></span-->
-          <a href="{{ name | slugify | append: '/' | prepend: '/blog/' | relative_url }}">{{ name | capitalize }}</a>
+          <a href="{{ name | slugify | append: '/' | prepend: '/blog/' }}">{{ name | capitalize }}</a>
         </li>
       {% endfor %}
     </ul>

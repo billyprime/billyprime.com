@@ -1,6 +1,7 @@
 ---
 permalink: /photos/flora/
 title: Flora
+category: photo
 models:
   - river
 feature: IMG_9211.jpg

@@ -1,6 +1,7 @@
 ---
 permalink: /photos/escalier/
 title: Escalier
+category: photo
 models:
   - bretagne
 feature: IMG_5869.jpg

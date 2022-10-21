@@ -1,10 +1,11 @@
 ---
 permalink: /photos/nighthawks/
 title: Nighthawks
+category: photo
 models:
   - river
 feature: IMG_9126.jpg
-weight: 6
+weight: 3
 photos:
   - src: IMG_9096.jpg
   - src: IMG_9135.jpg

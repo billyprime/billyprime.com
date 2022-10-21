@@ -2,22 +2,32 @@
 layout: root
 ---
 <!-- model.html -->
-<article class="post-single">
+<article class="post-single model">
 
   <header class="page-header">
     <h1>{{ page.title | escape }}</h1>
   </header>
-  {% if page.website %}
-    <section class="about-model">
-      <a href="{{ page.website }}">Website <span class="fas fa-external-link-alt"></span></a>
-    </section>
-  {% endif %}
 
-  {% if page.content %}
-    <section class="about-model">
-      {{ page.content }}
-    </section>
-  {% endif %}
+  <section class="about-model">
+
+    {% if page.feature %}
+      <img src="{{ page.feature }}" class="feature-photo">
+    {% endif %}
+
+    <div class="model-content">
+      {% if page.content %}
+          {{ page.content }}
+      {% endif %}
+
+      {% if page.website %}
+        <p>
+          <a href="{{ page.website }}">Website</a>
+        </p>
+      {% endif %}
+    </div>
+  </section>
+
+
 
   <section class="photo-models">
     {%- assign model = page.slug -%}

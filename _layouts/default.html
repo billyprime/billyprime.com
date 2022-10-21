@@ -9,12 +9,15 @@ layout: root
   </header>
 
   {% assign text = content | strip %}
-  {% if text == "" and page.photos %}
+  {% if text != "" %}
+    <section class="text">
+      {{ content }}
+    </section>
+  {% endif %}
+
+  {% if page.photos %}
     {%- include photos.html -%}
   {% endif %}
 
-  <section>
-    {{ content }}
-  </section>
 
 </article>

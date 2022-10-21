@@ -1,6 +1,7 @@
 ---
 permalink: /photos/mirrorbat/
 title: Mirrorbat
+category: photo
 models: []
 feature: ""
 weight: 0

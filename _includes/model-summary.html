@@ -1,23 +1,39 @@
 {%- assign details = site.models | where: "slug", model | first -%}
 
-{%- assign related = site.photos | concat: site.posts |
-  where_exp: "item", "item.models contains model" |
-  where_exp: "item", "item.url != page.url"
+{%- assign related = site.photos | where_exp: "item", "item.weight != 0"
+  | concat: site.posts | sort: 'weight'
+  | where_exp: "item", "item.models contains model"
+  | where_exp: "item", "item.url != page.url"
 -%}
 
 {% if related.size > 0 %}
 
 <aside class="related-pages">
   <header>
-    More content featuring <a href="{{ details.url | relative_url }}">{{ details.title }}</a>:
+    More content featuring <a href="{{ details.url }}">{{ details.title }}</a>:
   </header>
 
   <section class="model-features thumbnails">
-    {{  }}
     {%- for relation in related -%}
-      <article class="thumbnail">
-        <a href="{{ relation.url | relative_url }}"><h3 class="title">{{ relation.title }}</h3>
-          <img src="{{site.static}}{{relation.url}}/{{relation.feature}}"/></a>
+      {% assign trail = relation.feature | slice: -2,2 %}
+      {% assign cls = '' %}
+      {% if trail == '?w' %}{% assign cls = 'landscape'%}{% endif %}
+      <article class="thumbnail {{ cls }}">
+        <header class="thumbnail-header">
+          <h3 class="title">
+            <a href="{{ relation.url }}">{{ relation.title }}</a>
+          </h3>
+          {% if relation.category == 'photo' %}
+            <img src="https://static.billyprime.com/assets/images/icons/camera-retro.svg" class="icon" alt="Category: Photography" title="Photography">
+          {% elsif relation.category == 'drawing' %}
+            <img src="https://static.billyprime.com/assets/images/icons/pen-nib.svg" class="icon" alt="Category: Drawing" title="Drawing">
+          {% else %}
+            <img src="https://static.billyprime.com/assets/images/icons/paragraph.svg" class="icon" alt="Category: Writing" title="Writing">
+          {% endif %}
+        </header>
+        <a href="{{ relation.url }}" class="contained-photo">
+          <img src="{{site.static}}{{relation.url}}/{{relation.feature}}"/>
+        </a>
       </article>
     {%- endfor -%}
   </section>

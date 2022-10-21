@@ -1,6 +1,7 @@
 ---
 permalink: /photos/glimmer/
 title: Glimmer
+category: photo
 models:
   - echo-nittolitto
 feature: IMG_0042.jpg

@@ -1,10 +1,5 @@
-// This is the place to place Bootstrap's variables overrides.
-// As example you can start by importing the _variables.scss file from one of the
-// theme provided by https://bootswatch.com .
-
-// $font-path: 'https://static.billhunt.dev/assets/fonts/';
+/* Main Variables */
 $font-path: 'https://static.billyprime.com/assets/fonts/';
-$fa-font-path: $font-path + 'fontawesome/';
 
 /* Colors */
 $purple : #8255A6;
@@ -16,6 +11,7 @@ $orange : #D97B36;
 $khaki : #F2E3A7;
 $white : #fffcf6;
 $dark: #35302f;
+$darkest: #181111;
 $light: #e9e5dd;
 $newblue: #4f9cff;
 $black: #111100;
@@ -30,6 +26,18 @@ $link-hover-decoration: none;
 $main-background: $white;
 
 $nav-link-hover-bg: rgba(#fff, 0.3);
+
+/* Sizes */
+$page-width: 1140px;
+$column-width: 380px;
+
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+
+$grid-gutter-width: 10px;
+
+$border-weight-thin: 2px;
+$border-weight-thick: 2px;
 
 
 /* Fonts */
@@ -64,7 +72,7 @@ $code-font: monospace;
 }
 
 %bold {
-  font-weight: 400;
+  font-weight: 800;
 }
 
 @mixin text-outline($color: #000) {
@@ -135,4 +143,19 @@ $code-font: monospace;
   max-height: calc(100vh - 7rem);
   max-width: 100vw;
   object-fit: contain;
+}
+
+%standard-padding {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  @media (min-width: $breakpoint-md) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.container {
+  max-width: $page-width + (2*$grid-gutter-width) + (2*$border-weight-thick);
+  margin-left: auto;
+  margin-right: auto;
 }

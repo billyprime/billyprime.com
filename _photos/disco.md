@@ -1,6 +1,7 @@
 ---
 permalink: /photos/disco/
 title: Disco
+category: photo
 models:
   - rachel-aw
 feature: IMG_1959.jpg

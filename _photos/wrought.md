@@ -1,6 +1,7 @@
 ---
 permalink: /photos/wrought/
 title: Wrought
+category: photo
 models:
   - jesse-danger
 feature: IMG_8864.jpg

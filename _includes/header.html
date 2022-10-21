@@ -1,33 +1,30 @@
 <nav class="navbar navbar-expand-lg container">
   <div class="container-fluid navbar-container">
-    <a class="navbar-brand" rel="author" href="{{ '/' | relative_url }}"><span class="navbar-brand-first">Billy</span> <span class="navbar-brand-second">Prime</span></a>
+    <a class="navbar-brand" rel="author" href="/"><span class="navbar-brand-first">Billy</span> <span class="navbar-brand-second">Prime</span></a>
 
     {%- assign page_paths = site.header_pages -%}
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon fa fas fa-bars"></span>
-    </button>
-    <div class="navbar-collapse collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav nav-pages">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/photos/' | relative_url }}">Photos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog & Drawings</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/about/' | relative_url }}">About</a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav nav-social">
-        <li class="twitter">
-          <a href="https://twitter.com/billyprime" title="Twitter"><span class="fa fab fa-twitter icon"></span><span>Twitter</span></a>
-        </li>
-
-        <li class="email">
-          <a href="mailto:billy.prime@billyprime.com" title="Email"><span class="fa far fa-envelope icon"><span>Email</span></a>
-        </li>
-      </ul>
-    </div>
+    <ul class="nav navbar-nav nav-pages">
+      <li class="nav-item">
+        <a class="nav-link" href="/photos/">Photos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog/">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about/">About</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav nav-social">
+      <li class="twitter">
+        <a href="https://twitter.com/billyprime" title="Twitter">
+          <img src="https://static.billyprime.com/assets/images/icons/twitter.svg" alt="Twitter">
+        </a>
+      </li>
+      <li class="email">
+        <a href="mailto:billy.prime@billyprime.com" title="Email">
+          <img src="https://static.billyprime.com/assets/images/icons/envelope.svg" alt="Email">
+        </a>
+      </li>
+    </ul>
   </div>
 </nav>

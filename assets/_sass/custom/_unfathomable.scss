@@ -1,0 +1,20 @@
+.page-unfathomable-night {
+
+.content {
+  background: linear-gradient(0deg, #0f1400, #1a0c03);
+  color: $light;
+
+  h1, h2, h3 {
+    color: $light;
+  }
+
+  a {
+    color: $light;
+  }
+
+  .icon {
+    filter: invert(90%) sepia(10%);
+  }
+}
+
+}

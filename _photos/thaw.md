@@ -1,6 +1,7 @@
 ---
 permalink: /photos/thaw/
 title: Thaw
+category: photo
 models:
   - river
 feature: IMG_9290.jpg

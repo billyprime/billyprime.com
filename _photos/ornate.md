@@ -1,6 +1,7 @@
 ---
 permalink: /photos/ornate/
 title: Ornate
+category: photo
 models:
   - shakti
 feature: IMG_4461.jpg

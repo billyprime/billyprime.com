@@ -1,6 +1,7 @@
 ---
 permalink: /photos/suspend/
 title: Suspend
+category: photo
 models:
   - lorelei-black
 feature: Lorelei-0062.jpg

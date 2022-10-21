@@ -1,6 +1,7 @@
 ---
 permalink: /photos/caged/
 title: Caged
+category: photo
 models:
   - rachel-aw
 feature: Rachel-0608.jpg
