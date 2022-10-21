@@ -4,7 +4,7 @@ title: Whiteout
 category: photo
 models:
   - roarie-yum
-feature: feature.jpg
+image: feature.jpg
 weight: 3
 photos:
   - src: 20140603-Roarie-0005-41.jpg

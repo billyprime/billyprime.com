@@ -4,7 +4,7 @@ title: Moto 2
 category: photo
 models:
   - jenn-ryan
-feature: IMG_7820.jpg
+image: IMG_7820.jpg
 weight: 24
 photos:
   - src: IMG_7854.jpg

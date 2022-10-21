@@ -4,7 +4,7 @@ title: Flora
 category: photo
 models:
   - river
-feature: IMG_9211.jpg
+image: IMG_9211.jpg
 weight: 13
 photos:
   - src: IMG_9193.jpg

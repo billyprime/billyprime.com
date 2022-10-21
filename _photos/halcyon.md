@@ -4,7 +4,7 @@ title: Halcyon
 category: photo
 models:
   - riley-stclare
-feature: IMG_8046.jpg
+image: IMG_8046.jpg
 weight: 26
 photos:
   - src: IMG_7957_2.jpg

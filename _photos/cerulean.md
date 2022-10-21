@@ -4,7 +4,7 @@ title: Cerulean
 category: photo
 models:
   - ryann-s
-feature: Ryann-0044-2.jpg
+image: Ryann-0044-2.jpg
 weight: 21
 photos:
   - src: Ryann-0024-2.jpg

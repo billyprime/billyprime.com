@@ -4,7 +4,7 @@ title: Wrought
 category: photo
 models:
   - jesse-danger
-feature: IMG_8864.jpg
+image: IMG_8864.jpg
 weight: 33
 photos:
   - src: IMG_8864.jpg

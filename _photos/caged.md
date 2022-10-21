@@ -4,7 +4,7 @@ title: Caged
 category: photo
 models:
   - rachel-aw
-feature: Rachel-0608.jpg
+image: Rachel-0608.jpg
 weight: 25
 photos:
   - src: Rachel-0591.jpg

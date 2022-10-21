@@ -3,7 +3,7 @@ permalink: /photos/mirrorbat/
 title: Mirrorbat
 category: photo
 models: []
-feature: ""
+image: ""
 weight: 0
 photos:
   - src: IMG_5499_crop.jpg

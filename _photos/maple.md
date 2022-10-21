@@ -4,7 +4,7 @@ title: Maple
 category: photo
 models:
   - remy-ciuba
-feature: IMG_1539.jpg
+image: IMG_1539.jpg
 weight: 11
 photos:
   - src: IMG_0041.jpg

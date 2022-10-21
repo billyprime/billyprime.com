@@ -5,7 +5,7 @@ category: photo
 models:
   - melanie-blankenship
   - ryann-s
-feature: IMG_4220.jpg
+image: IMG_4220.jpg
 weight: 9
 photos:
   - src: IMG_4220.jpg

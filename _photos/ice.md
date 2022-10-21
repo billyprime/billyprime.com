@@ -4,7 +4,7 @@ title: Ice
 category: photo
 models:
   - muse
-feature: IMG_9892.jpg
+image: IMG_9892.jpg
 weight: 34
 photos:
   - src: IMG_9927.jpg

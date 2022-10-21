@@ -4,7 +4,7 @@ title: Ornate
 category: photo
 models:
   - shakti
-feature: IMG_4461.jpg
+image: IMG_4461.jpg
 weight: 23
 photos:
   - src: IMG_4146.jpg

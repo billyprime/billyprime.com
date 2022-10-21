@@ -4,7 +4,7 @@ title: Pull
 category: photo
 models:
   - kelly
-feature: IMG_1953.jpg
+image: IMG_1953.jpg
 weight: 19
 photos:
   - src: IMG_1953.jpg

@@ -4,7 +4,7 @@ title: Clutter
 category: photo
 models:
   - kelly
-feature: IMG_7595.jpg
+image: IMG_7595.jpg
 weight: 0
 photos:
   - src: IMG_7595.jpg

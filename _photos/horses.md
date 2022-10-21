@@ -4,7 +4,7 @@ title: Horses
 category: photo
 models:
   - jacs-fishburne
-feature: Jacs-0017-1.jpg
+image: Jacs-0017-1.jpg
 weight: 5
 photos:
   - src: Jacs-0006-2.jpg

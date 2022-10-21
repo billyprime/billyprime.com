@@ -4,7 +4,7 @@ title: Flame
 category: photo
 models:
   - river
-feature: IMG_1113.jpg
+image: IMG_1113.jpg
 weight: 32
 photos:
   - src: IMG_0924.jpg

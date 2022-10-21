@@ -4,7 +4,7 @@ title: Quiet
 category: photo
 models:
   - ada-snow
-feature: ""
+image: ""
 weight: 0
 photos:
   - src: IMG_7407.jpg

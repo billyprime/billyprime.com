@@ -4,7 +4,7 @@ title: Haze
 category: photo
 models:
   - jesse-danger
-feature: ""
+image: ""
 weight: 0
 photos:
   - src: IMG_8756.jpg

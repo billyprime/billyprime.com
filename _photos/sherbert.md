@@ -4,7 +4,7 @@ title: Sherbert
 category: photo
 models:
   - river
-feature: IMG_8951.jpg
+image: IMG_8951.jpg
 weight: 28
 photos:
   - src: IMG_8951.jpg

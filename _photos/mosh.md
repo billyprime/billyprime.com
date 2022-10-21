@@ -4,7 +4,7 @@ title: Mosh
 category: photo
 models:
   - mosh
-feature: IMG_9570.jpg
+image: IMG_9570.jpg
 weight: 6
 photos:
   - src: IMG_8899.jpg

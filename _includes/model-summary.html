@@ -15,7 +15,7 @@
 
   <section class="model-features thumbnails">
     {%- for relation in related -%}
-      {% assign trail = relation.feature | slice: -2,2 %}
+      {% assign trail = relation.image | slice: -2,2 %}
       {% assign cls = '' %}
       {% if trail == '?w' %}{% assign cls = 'landscape'%}{% endif %}
       <article class="thumbnail {{ cls }}">
@@ -32,7 +32,7 @@
           {% endif %}
         </header>
         <a href="{{ relation.url }}" class="contained-photo">
-          <img src="{{site.static}}{{relation.url}}/{{relation.feature}}"/>
+          <img src="{{site.static}}{{relation.url}}/{{relation.image}}"/>
         </a>
       </article>
     {%- endfor -%}

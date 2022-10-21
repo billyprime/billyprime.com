@@ -4,7 +4,7 @@ title: Captivate
 category: photo
 models:
   - constantia
-feature: IMG_5993.jpg
+image: IMG_5993.jpg
 weight: 31
 photos:
   - src: IMG_5993.jpg

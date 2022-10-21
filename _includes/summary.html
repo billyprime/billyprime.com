@@ -9,12 +9,12 @@
         </date>
       {% endif %}
     </header>
-    {% if post.feature -%}
-      {%- assign prefix = post.feature | slice: 0, 4 %}
+    {% if post.image -%}
+      {%- assign prefix = post.image | slice: 0, 4 %}
       {%- if prefix == 'http' %}
-        {% assign feature_img = post.feature %}
+        {% assign feature_img = post.image %}
       {%- else %}
-        {% assign feature_img = site.static | append: post.url | append: '/' | append: post.feature %}
+        {% assign feature_img = site.static | append: post.url | append: '/' | append: post.image %}
       {%- endif %}
       <img class="gallery-image" src="{{ feature_img }}" />
     {% endif %}

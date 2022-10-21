@@ -4,7 +4,7 @@ title: Bubblegum
 category: photo
 models:
   - echo-nittolitto
-feature: IMG_97931.jpg
+image: IMG_97931.jpg
 weight: 27
 photos:
   - src: IMG_97931.jpg

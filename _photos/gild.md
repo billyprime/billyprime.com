@@ -4,7 +4,7 @@ title: Gild
 category: photo
 models:
   - shakti
-feature: IMG_8418.jpg?w
+image: IMG_8418.jpg?w
 weight: 6
 photos:
   - src: IMG_8295.jpg

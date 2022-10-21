@@ -4,7 +4,7 @@ title: Freshie
 category: photo
 models:
   - freshie-juice
-feature: Freshie-0023.jpg
+image: Freshie-0023.jpg
 weight: 22
 photos:
   - src: Freshie-0036.jpg

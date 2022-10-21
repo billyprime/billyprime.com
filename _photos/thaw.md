@@ -4,7 +4,7 @@ title: Thaw
 category: photo
 models:
   - river
-feature: IMG_9290.jpg
+image: IMG_9290.jpg
 weight: 29
 photos:
   - src: IMG_9227.jpg

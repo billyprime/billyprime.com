@@ -4,7 +4,7 @@ title: Sequence
 category: photo
 models:
   - meg
-feature: 20160102-Meg-0078.jpg
+image: 20160102-Meg-0078.jpg
 weight: 7
 photos:
   - src: 20160102-Meg-0068-1.jpg

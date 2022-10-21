@@ -4,7 +4,7 @@ title: Arcana
 category: photo
 models:
   - lizzaslizza
-feature: 7.jpg
+image: 7.jpg
 weight: 7
 photos:
   - src: 7.jpg

@@ -4,7 +4,7 @@ title: Spangled
 category: photo
 models:
   - tricia
-feature: ""
+image: ""
 weight: 0
 photos:
   - src: IMG_4014.jpg

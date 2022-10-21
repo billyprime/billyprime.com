@@ -4,7 +4,7 @@ title: Suspend
 category: photo
 models:
   - lorelei-black
-feature: Lorelei-0062.jpg
+image: Lorelei-0062.jpg
 weight: 15
 photos:
   - src: Lorelei-0023-1.jpg

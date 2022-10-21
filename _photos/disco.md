@@ -4,7 +4,7 @@ title: Disco
 category: photo
 models:
   - rachel-aw
-feature: IMG_1959.jpg
+image: IMG_1959.jpg
 weight: 20
 photos:
   - src: IMG_1959.jpg

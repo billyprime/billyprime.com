@@ -4,7 +4,7 @@ title: Unfathomable Night
 category: photo
 models:
   - shakti
-feature: DSCF5690.jpg?w
+image: DSCF5690.jpg?w
 weight: 1
 photos:
   - src: DSCF5175.jpg

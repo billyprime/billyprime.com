@@ -4,7 +4,7 @@ title: Noble
 category: photo
 models:
   - jacs-fishburne
-feature: feature-Jacs-0071-1.jpg
+image: feature-Jacs-0071-1.jpg
 weight: 2
 photos:
   - src: 20160611-Jacs-0071-1.jpg

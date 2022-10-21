@@ -4,7 +4,7 @@ title: Scuro
 category: photo
 models:
   - max-jade
-feature: IMG_4602.jpg
+image: IMG_4602.jpg
 weight: 14
 photos:
   - src: IMG_4580.jpg

@@ -4,7 +4,7 @@ title: Refract
 category: photo
 models:
   - rachel-aw
-feature: IMG_9628.jpg
+image: IMG_9628.jpg
 weight: 8
 photos:
   - src: IMG_9628.jpg

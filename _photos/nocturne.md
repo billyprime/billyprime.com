@@ -4,7 +4,7 @@ title: Nocturne
 category: photo
 models:
   - cat-hedlund
-feature: cat-0086.jpg
+image: cat-0086.jpg
 weight: 30
 photos:
   - src: cat-0086.jpg

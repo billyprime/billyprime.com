@@ -4,7 +4,7 @@ title: Nighthawks
 category: photo
 models:
   - river
-feature: IMG_9126.jpg
+image: IMG_9126.jpg
 weight: 3
 photos:
   - src: IMG_9096.jpg

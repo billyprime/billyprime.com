@@ -4,7 +4,7 @@ title: Glimmer
 category: photo
 models:
   - echo-nittolitto
-feature: IMG_0042.jpg
+image: IMG_0042.jpg
 weight: 10
 photos:
   - src: IMG_9874.jpg

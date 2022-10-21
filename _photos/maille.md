@@ -4,7 +4,7 @@ title: Maille
 category: photo
 models:
   - jacs-fishburne
-feature: Jacs-0129.jpg
+image: Jacs-0129.jpg
 weight: 17
 photos:
   - src: Jacs-0108.jpg

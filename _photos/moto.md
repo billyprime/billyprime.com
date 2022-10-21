@@ -4,7 +4,7 @@ title: Moto
 category: photo
 models:
   - jenn-ryan
-feature: ""
+image: ""
 weight: 0
 photos:
   - src: IMG_7686.jpg

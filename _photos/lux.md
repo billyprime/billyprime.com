@@ -4,7 +4,7 @@ title: Lux
 category: photo
 models:
   - lux-lacheln
-feature: Lux-feature.jpg
+image: Lux-feature.jpg
 weight: 2
 photos:
   - src: Lux-0008.jpg

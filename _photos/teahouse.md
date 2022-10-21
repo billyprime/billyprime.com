@@ -5,7 +5,7 @@ category: photo
 models:
   - shakti
   - kelly
-feature: ""
+image: ""
 weight: 0
 photos:
   - src: IMG_2715.jpg

@@ -4,7 +4,7 @@ title: Escalier
 category: photo
 models:
   - bretagne
-feature: IMG_5869.jpg
+image: IMG_5869.jpg
 weight: 16
 photos:
   - src: IMG_5580-5591.jpg
