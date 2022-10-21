@@ -25,8 +25,18 @@ photos:
   - src: DSCF5250.jpg
 
 credits:
-  - name: Catsuit
+  - name: Nylon Catsuit
     value: <a href='https://anoeses.com/'>Anoeses</a>
+  - name: Bralet / Cage Accessories
+    value: <a href="https://chromat.co/">Chromat</a>
+  - name: Skirts
+    value: Mary Lynne Ironsmith + Billy Prime
+  - name: Hosiery
+    value: <a href="https://www.falke.com/uk_en/">Falke</a>
+  - name: Heels
+    value: <a href="https://pleasershoes.com/">Pleaser</a>
+  - name: Boots
+    value: <a href="https://www.thefryecompany.com/">Frye</a>
 ---
 [Read the blog post about this shoot.](/blog/rust/)
 
