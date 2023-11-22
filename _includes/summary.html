@@ -14,7 +14,7 @@
       {%- if prefix == 'http' %}
         {% assign feature_img = post.image %}
       {%- else %}
-        {% assign feature_img = site.static | append: post.url | append: '/' | append: post.image %}
+        {% assign feature_img = site.static | append: post.url | append: post.image %}
       {%- endif %}
       <img class="gallery-image" src="{{ feature_img }}" />
     {% endif %}
