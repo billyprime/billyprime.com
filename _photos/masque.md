@@ -35,7 +35,7 @@ credits:
   - name: Bra & Thong
     value: <a href='http://www.westwardbound.co.uk/'>Westward Bound</a>
   - name: Corset
-    value: <a href='https://demask.com/'>
+    value: <a href='https://demask.com/'>DeMask</a>
   - name: Stockings
     value: Skin Two (vintage)
   - name: Heels
