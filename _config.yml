@@ -74,6 +74,7 @@ exclude:
   - Capfile
   - config
   - log
+  - vendor
 
 permalink: /blog/:categories/:title/
 
