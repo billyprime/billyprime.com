@@ -6,7 +6,7 @@ models:
   - shakti
   - kelly
 image: ""
-weight: 0
+weight: 12
 photos:
   - src: IMG_2715.jpg
   - src: IMG_3019.jpg

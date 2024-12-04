@@ -14,14 +14,14 @@ photos:
   - src: IMG_5430.jpg
   - src: IMG_5512.jpg
 credits:
-  - name: knee high chucks
+  - name: Shoes
     value: <a href='http://www.converse.com/'>Converse</a>
-  - name: socks
+  - name: Socks
     value: <a href='http://americanapparel.net/'>American Apparel</a>
-  - name: make-up
+  - name: Make-up
     value: <a href='http://www.myspace.com/trasha666'>Tricia</a>
-  - name: model
+  - name: Model
     value: <a href='http://www.julieemilie.com/'>Julie</a>
-  - name: disco stick
+  - name: Disco Stick
     value: <a href='http://jigsawfanclub.com/'>John Brodrick Jones</a>
 ---
