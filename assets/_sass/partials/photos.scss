@@ -154,11 +154,6 @@
 .divider-inside {
   display: block;
   align-self: center;
-  width: 90vw;
-  // text-align: justify;
-  @media (min-width: $breakpoint-md) {
-    width: 30vw;
-  }
 }
 
 .preview {
