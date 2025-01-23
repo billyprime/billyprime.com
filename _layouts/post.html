@@ -15,9 +15,13 @@ layout: root
     </p>
   </header>
 
-  <section class="post-content">
+  <section class="text">
     {{ content }}
   </section>
+
+  {% if page.photos %}
+    {%- include photos.html -%}
+  {% endif %}
 
   <section class="photo-models">
     {%- for model in page.models -%}

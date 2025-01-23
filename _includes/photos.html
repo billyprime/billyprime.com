@@ -10,8 +10,13 @@
     {% assign trail = photo.src | slice: -2,2 %}
     {% assign cls = '' %}
     {% if trail == '?w' %}{% assign cls = 'landscape'%}{% endif %}
-    <a href="{{site.static}}/photos/{{page.slug}}/{{ photo.src }}" class="contained-photo {{ cls }}">
-      <img src="{{site.static}}/photos/{{page.slug}}/{{ photo.src }}"/>
+    {% if photo.src contains '/' %}
+      {% assign url = photo.src %}
+    {% else %}
+      {% assign url = '/photos/' | append: page.slug | append: '/' | append: photo.src %}
+    {% endif %}
+    <a href="{{ site.static }}{{ url }}" class="contained-photo {{ cls }}">
+      <img src="{{ site.static }}{{ url }}"/>
     </a>
   {%- endif -%}
 {%- endfor -%}
