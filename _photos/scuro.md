@@ -7,18 +7,18 @@ models:
 image: IMG_4602.jpg
 weight: 14
 photos:
-  - src: IMG_4580.jpg
-  - src: IMG_4393.jpg
-  - src: IMG_4602.jpg
-  - src: IMG_4617.jpg
-  - src: IMG_4426.jpg
-  - src: IMG_4520.jpg
-  - src: IMG_4475.jpg
-  - src: IMG_4363.jpg
-  - src: IMG_4560.jpg
-  - src: IMG_4451.jpg
-  - src: IMG_4664.jpg
+  - src: IMG_4602.jpg?w
   - src: IMG_4419.jpg
+  - src: IMG_4580.jpg
+  - src: IMG_4426.jpg
+  - src: IMG_4393.jpg
+  - src: IMG_4475.jpg
+  - src: IMG_4560.jpg?w
+  - src: IMG_4451.jpg?w
+  - src: IMG_4363.jpg
+  - src: IMG_4520.jpg
+  - src: IMG_4664.jpg?w
+  - src: IMG_4617.jpg
   - src: Polaroid-1.jpg
   - src: Polaroid-3.jpg
   - src: Polaroid-4.jpg
