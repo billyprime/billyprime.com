@@ -7,25 +7,30 @@ models:
 image: IMG_9211.jpg
 weight: 13
 photos:
-  - src: IMG_9193.jpg
-  - src: IMG_9211.jpg
-  - src: IMG_9206.jpg
-  - src: IMG_9474.jpg
-  - src: IMG_9270.jpg
-  - src: IMG_9300.jpg
+  - src: IMG_9193.jpg?w
+  - src: IMG_9417.jpg
   - src: IMG_9462.jpg
-  - src: IMG_9129.jpg
-  - src: IMG_9151.jpg
-  - src: IMG_9175.jpg
-  - src: IMG_9452.jpg
+  - src: IMG_9129.jpg?w
+  - src: IMG_9211.jpg?w
   - src: IMG_9335.jpg
-  - src: IMG_9351.jpg
-  - src: IMG_9363.jpg
-  - src: IMG_9458.jpg
-  - src: IMG_9406.jpg
-  - src: IMG_9399.jpg
   - src: IMG_9439.jpg
+  - src: IMG_9474.jpg
+  - src: IMG_9300.jpg
+  - src: IMG_9452.jpg
+  - src: IMG_9351.jpg?w
+  - src: IMG_9406.jpg?w
+  - src: IMG_9270.jpg
+  - src: IMG_9151.jpg
   - src: IMG_9480.jpg
+  - src: IMG_9399.jpg
+  - src: IMG_9379.jpg
+  - src: IMG_9138.jpg?w
+  - src: IMG_9363.jpg
+  - src: IMG_9401.jpg
+  - src: IMG_9206.jpg
+  - src: IMG_9175.jpg
+  - src: IMG_9458.jpg
+  - src: IMG_9375.jpg
 credits:
   - name: Flowers
     value: <a href='http://www.hedgefineblooms.com/'>Hedge</a>
