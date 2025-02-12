@@ -5,7 +5,7 @@ category: photo
 models:
   - meg
 image: 20160102-Meg-0078.jpg
-weight: 7
+weight: 8
 photos:
   - src: 20160102-Meg-0068-1.jpg
   - src: 20160102-Meg-0078.jpg

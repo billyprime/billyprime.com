@@ -5,7 +5,7 @@ category: photo
 models:
   - lizzaslizza
 image: 7.jpg
-weight: 7
+weight: 10
 photos:
   - src: 7.jpg
   - src: 2.jpg

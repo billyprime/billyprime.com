@@ -5,7 +5,7 @@ category: photo
 models:
   - echo-nittolitto
 image: IMG_0042.jpg
-weight: 10
+weight: 11
 photos:
   - src: IMG_9874.jpg
   - src: IMG_9925.jpg

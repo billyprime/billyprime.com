@@ -6,7 +6,7 @@ models:
   - melanie-blankenship
   - ryann-s
 image: IMG_4220.jpg
-weight: 9
+weight: 10
 photos:
   - src: IMG_4220.jpg
   - src: IMG_4128.jpg
