@@ -1,10 +1,10 @@
 ---
 permalink: /photos/cerise/
-title: Lierre
+title: Cerise
 category: photo
 models:
   - shakti
-image: IMG_4991.jpg
+image: DSCF0288.jpg
 weight: 0
 photos:
   - src: DSCF0267.jpg
