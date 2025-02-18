@@ -5,7 +5,7 @@ category: photo
 models:
   - kelly
 image: IMG_1953.jpg
-weight: 19
+weight: 10
 photos:
   - src: IMG_1953.jpg
   - src: IMG_2269.jpg

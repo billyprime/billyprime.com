@@ -5,7 +5,7 @@ category: photo
 models:
   - jacs-fishburne
 image: feature-Jacs-0071-1.jpg
-weight: 2
+weight: 4
 photos:
   - src: 20160611-Jacs-0071-1.jpg
   - src: 20160611-Jacs-0073.jpg?w

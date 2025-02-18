@@ -5,7 +5,7 @@ category: photo
 models:
   - shakti
 image: "https://static.billyprime.com/photos/unfathomable/DSCF5690.jpg?w"
-weight: 1
+weight: 3
 photos:
   - src: DSCF5175.jpg
   - src: DSCF5690.jpg?w
