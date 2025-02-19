@@ -4,7 +4,8 @@ author: Bill Hunt
 date: 2025-02-19-T09:55:06-0500
 layout: post
 image: https://static.billyprime.com/photos/cerise/DSCF0322.jpg
-photos:
+models:
+  - shakti
 excerpt: Another new shoot with Shakti, with some new gear.
 ---
 
