@@ -7,14 +7,14 @@ models:
 image: IMG_5993.jpg
 weight: 31
 photos:
-  - src: IMG_5993.jpg
-  - src: IMG_6161.jpg
-  - src: IMG_6015.jpg
-  - src: IMG_6134.jpg
-  - src: IMG_6050.jpg
-  - src: IMG_6170.jpg
-  - src: IMG_6029.jpg
+  - src: IMG_5993.jpg?w
   - src: IMG_6041.jpg
+  - src: IMG_6015.jpg
+  - src: IMG_6134.jpg?w
+  - src: IMG_6050.jpg?w
+  - src: IMG_6161.jpg
+  - src: IMG_6029.jpg?w
+  - src: IMG_6170.jpg
 credits:
   - name: Hair
     value: Megan Smith Watson
