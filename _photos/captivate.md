@@ -25,7 +25,7 @@ credits:
   - name: Dress
     value: <a href='http://www.modcloth.com/'>ModCloth</a>
   - name: Torselette
-    value: <a href='http://www.highglossdolls.com/shop/'>Fräulein Ehrhardt</a>
+    value: <a href='http://www.highglossdolls.com/shop/'>High Gloss Dolls</a>
   - name: Brief
     value: <a href='http://www.libidex.com/'>Libidex</a>
 ---
