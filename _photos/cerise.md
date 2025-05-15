@@ -5,7 +5,7 @@ category: photo
 models:
   - shakti
 image: DSCF0296.jpg
-weight: 1
+weight: 4
 photos:
   - src: DSCF0296.jpg
   - src: DSCF0459.jpg

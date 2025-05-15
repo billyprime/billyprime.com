@@ -5,7 +5,7 @@ category: photo
 models:
   - lux-lacheln
 image: Lux-feature.jpg
-weight: 4
+weight: 6
 photos:
   - src: Lux-0008.jpg
   - src: Lux-0039-2.jpg

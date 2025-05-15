@@ -7,9 +7,9 @@ models:
 image: IMG_8864.jpg
 weight: 33
 photos:
-  - src: IMG_8864.jpg
+  - src: IMG_8864.jpg?w
   - src: IMG_8671.jpg
-  - src: IMG_8885.jpg
+  - src: IMG_8885.jpg?w
   - src: IMG_8634.jpg
   - src: IMG_8852.jpg
   - src: IMG_8690.jpg

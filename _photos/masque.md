@@ -5,7 +5,7 @@ category: photo
 models:
   - river
 image: IMG_9555.jpg
-weight: 4
+weight: 6
 photos:
 
   - src: IMG_9555.jpg?w

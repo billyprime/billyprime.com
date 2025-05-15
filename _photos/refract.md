@@ -5,7 +5,7 @@ category: photo
 models:
   - rachel-aw
 image: IMG_9628.jpg
-weight: 3
+weight: 4
 photos:
   - src: IMG_9628.jpg
   - src: IMG_9670.jpg

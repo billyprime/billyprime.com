@@ -4,13 +4,13 @@ title: Moto
 category: photo
 models:
   - jenn-ryan
-image: ""
-weight: 0
+image: IMG_7621.jpg
+weight: 40
 photos:
+  - src: IMG_7679.jpg?w
+  - src: IMG_7621.jpg
   - src: IMG_7686.jpg
   - src: IMG_7628.jpg
-  - src: IMG_7679.jpg
-  - src: IMG_7621.jpg
   - src: IMG_7629.jpg
   - src: IMG_7602.jpg
   - src: IMG_7685.jpg

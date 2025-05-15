@@ -5,7 +5,7 @@ category: photo
 models:
   - roarie-yum
 image: feature.jpg
-weight: 3
+weight: 4
 photos:
   - src: 20140603-Roarie-0005-41.jpg
   - src: 20140603-Roarie-0012-11.jpg
