@@ -4,7 +4,7 @@ title: Slay
 category: photo
 models:
 image: DSCF0704.jpg
-weight: 0
+weight: 1
 photos:
   - src: DSCF0704.jpg?w
   - src: DSCF1243.jpg
@@ -31,5 +31,9 @@ photos:
   - src: DSCF1193.jpg?w
 
 credits:
-
+  - name: Red Latex Dress
+    value: <a href='https://www.innersanctumonline.com/en/'>Inner Sanctum</a>
+  - name: Black Latex Dress
+    value: <a href='http://atsukokudo.com'>Atsuko Kudo</a>
 ---
+While we were shooting these photos downtown near the campus, a woman driving by yelled out her window, "SLAY."  It seemed a fitting title.
